@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&display=swap');
+@font-face {
+    font-family: 'Baloo';
+    src: url('../assets/fonts/Baloo-Regular.woff2') format('woff2'), url('../fonts/Baloo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../assets/fonts/GothamUltra.woff2') format('woff2'), url('../fonts/GothamUltra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-bold';
+    src: url('../assets/fonts/GothamBold.woff2') format('woff2'), url('../fonts/GothamBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../assets/fonts/Gotham-Medium.woff2') format('woff2'), url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../assets/fonts/Gotham-Light.woff2') format('woff2'), url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    line-height: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #282829;
+}
+
+section {
+    padding: 60px 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+/* Navbar CSS */
+
+.navbar-brand {
+    height: 100px;
+}
+
+.navbar {
+    padding: .5rem 2rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: 'Gotham-Light';
+    font-size: 18px;
+}
+
+
+/* Home Page CSS */
+
+#home {
+    height: 100vh;
+    background-color: #282829;
+    background-image: url("../assets/images/home/nailbaclground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 240px;
+}
+
+#home .home-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#home .home-content .home-title img {
+    height: 30px;
+}
+
+#home .home-content .home-title p {
+    color: #DED9CC;
+    margin: 20px;
+}
+
+#home .home-content .home-img img {
+    height: 350px;
+    transform: translateX(-100px);
+    position: relative;
+}
+
+
+/* Kashiff Khan Section Started */
+
+#kasiff-home {
+    background-color: #282829;
+}
+
+.d-fle {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.kf-image {
+    z-index: 2;
+}
+
+.kf-image img {
+    height: 550px;
+}
+
+.kf-content h1 {
+    font-family: 'Gotham-Medium';
+    font-size: 64px;
+}
+
+.kf-more-content {
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.kf-more-content ::after {
+    content: "";
+    height: 320px;
+    width: 1100px;
+    left: 10px;
+    top: 35%;
+    position: absolute;
+    border: 2px solid #e2c67f;
+    z-index: 1;
+}
+
+.kf-more-content h4 {
+    font-size: 20px;
+}
+
+.kf-more-content p {
+    letter-spacing: 0.2px;
+    width: 250px;
+    color: #ffffff;
+    font-family: 'Gotham-Light';
+}
+
+.title {
+    position: relative;
+}
+
+.title h1 {
+    font-family: 'Gotham-Medium';
+    font-size: 54px;
+}
+
+.title::after {
+    content: "";
+    height: 120px;
+    width: 1130px;
+    left: 10px;
+    top: -40%;
+    position: absolute;
+    border: 2px solid #e2c67f;
+    z-index: 1;
+}
+
+.padding-topbt {
+    padding: 50px 0;
+}
+
+.kf-bg-content {
+    display: grid;
+    place-items: center;
+}
+
+.kf-bg-content p {
+    width: 600px;
+    display: flex;
+}
+
+.kashiff-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-cards {
+    padding: 20px;
+}
+
+.kashiff-features h3 {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+/*todo Michel Adam Section Started */
+
+.ma-image {
+    z-index: 2;
+}
+
+.ma-image img {
+    height: 550px;
+}
+
+.ma-content h1 {
+    font-family: 'Gotham-Medium';
+    font-size: 64px;
+}
+
+.ma-more-content {
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.ma-more-content ::after {
+    content: "";
+    height: 340px;
+    width: 1100px;
+    left: 10px;
+    top: 35%;
+    position: absolute;
+    border: 2px solid #e2c67f;
+    z-index: 1;
+}
+
+.ma-more-content h4 {
+    font-size: 20px;
+}
+
+.ma-more-content p {
+    letter-spacing: 0.2px;
+    width: 400px;
+    color: #ffffff;
+    font-family: 'Gotham-Light';
+}
+
+.ma-bg-content p {
+    text-align: center;
+}
+
+
+/* Shows CSS Started */
+
+#sh-background h5 {
+    margin-top: 50px;
+}
+
+.sh-bg-content p {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro-cards {
+    padding: 20px;
+}
+
+.intro-cards video {
+    height: 380px;
+}
+
+#shows-introducation .intro-content p {
+    padding: 20px 180px;
+}
+
+#shows-introduction-feature .cards-title h1,
+#mobile-shows-introduction-feature h1 {
+    padding: 20px 0;
+}
+
+#shows-introduction-feature .cards-content p,
+#mobile-shows-introduction-feature p {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+#mobile-shows-introduction-feature {
+    display: none;
+}
+
+
+/*todo Footer Section Started */
+
+.main-footer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ftv-logo img {
+    height: 200px;
+}
+
+.main-footer ul {
+    list-style: none;
+}
+
+.main-footer h1 {
+    font-size: 22px;
+    line-height: 117%;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main-footer h2 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.footer-content ul {
+    display: flex;
+    list-style: none;
+    margin-left: -10px;
+}
+
+.footer-content input {
+    overflow: visible;
+    border: 1px solid #fff;
+    background: none;
+    padding: 4px 40px;
+    margin: 10px 0;
+}
+
+.footer-content input::placeholder {
+    color: #ffffff;
+}
+
+.footer-content button {
+    border: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-left: 1px solid #fff;
+    margin-left: 20px;
+}
+
+.footer-logo {
+    padding: 30px 20px;
+    border-radius: 50px;
+    background-color: #1a1a1b;
+}
+
+.footer-logo li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.fa {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.footer-content ul li {
+    padding: 30px 12px;
+}
+
+.footer-content span {
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
