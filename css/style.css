@@ -474,7 +474,7 @@ p {
 /* FTV CSS STARTED */
 
 .ftv-intro-feature .cards {
-  padding: 30px 40px;
+  padding: 70px 40px;
 }
 
 .ftv-intro-feature .cardsimage img {
@@ -494,7 +494,7 @@ p {
 }
 
 .ftv-intro-feature .cards-title h1 {
-  font-size: 54px;
+  font-size: 48px;
   letter-spacing: 2px;
   font-family: "Gotham-Medium";
 }
@@ -510,7 +510,7 @@ p {
 
 .right-imgs {
   background-image: url("../assets/images/franchise/rightside.png");
-  background-size: 750px;
+  background-size: 650px;
   background-repeat: no-repeat;
   position: relative;
   background-position-x: 100%;
@@ -518,25 +518,25 @@ p {
 
 .left-imgs {
   background-image: url("../assets/images/leftside.png");
-  background-size: 750px;
+  background-size: 650px;
   background-repeat: no-repeat;
   position: relative;
   background-position-x: 20%;
 }
 .cardsimage::after {
   content: "";
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   right: -3%;
-  top: 65%;
+  top: 75%;
   position: absolute;
   border: 5px solid #e2c67f;
   z-index: 2;
 }
 .cardsimage2::after {
   content: "";
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   left: -3%;
   top: 50%;
   position: absolute;
@@ -551,6 +551,56 @@ p {
   position: relative;
   background-position-y: 550px;
 }
+
+/* FTV SERVICE CSS STARTED */
+
+.f-logo-ser img {
+  height: 80px;
+  margin: 20px 0;
+}
+
+#intro-service {
+  background-image: url("../assets/images/franchise/rightside.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: 250px;
+}
+
+#intro-service .service-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#intro-service .serv-logo img {
+  height: 200px;
+}
+
+#intro-service .serv-content p {
+  width: 650px;
+}
+
+#intro-service .gel-mani {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+#intro-service .gel-mani p {
+  text-align: center;
+  padding: 20px;
+}
+
+.f-logo-ser2 img {
+  height: 70px;
+  margin: 20px 0;
+  float: right;
+}
+
+.midlogo img{
+  margin-top: 70px;
+  height: 200px;
+}
+
 
 /*todo Footer Section Started */
 

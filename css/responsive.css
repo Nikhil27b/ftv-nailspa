@@ -1,149 +1,171 @@
-    /* For Tab */
-    
-    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {}
-    /* For Mobile Size */
-    
-    @media only screen and (max-width: 749px) {
-        section {
-            padding: 50px 20px;
-        }
-        /* Kashiff Khan Responsive */
-        .d-fle {
-            flex-direction: column;
-            align-items: center;
-        }
-        .title h1 {
-            font-family: 'Gotham-Medium';
-            font-size: 38px;
-        }
-        .kf-content h1,
-        .ma-content h1 {
-            font-family: 'Gotham-Medium';
-            font-size: 34px;
-            margin: 20px 0;
-        }
-        .kf-image img,
-        .ma-image img {
-            height: 380px;
-        }
-        .kf-more-content ::after,
-        .ma-more-content ::after {
-            content: "";
-            height: 250px;
-            width: 340px;
-            top: 0%;
-        }
-        .kf-more-content,
-        .ma-more-content {
-            padding: 10px 0;
-        }
-        .title::after {
-            height: 100px;
-            width: 350px;
-            margin-left: 0;
-            transform: translate(-50%, -50%);
-            top: 50%;
-            left: 50%;
-        }
-        .kf-more-content p,
-        .ma-more-content p {
-            letter-spacing: 0.2px;
-            width: 100%;
-        }
-        .kf-bg-content p {
-            width: 100%;
-        }
-        .kashiff-features {
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        /* Shows Responsive */
-        .intro-cards video {
-            height: 360px;
-            width: 100%;
-        }
-        .video-source video {
-            width: 100%;
-        }
-        #shows-introduction-feature,
-        #specification .spec-table {
-            display: none;
-        }
-        #mobile-shows-introduction-feature,
-        #specification .mobile-table {
-            display: block;
-        }
-        .sh-bg-content p {
-            text-align: center;
-            padding: 20px 0;
-        }
+/* For Tab */
 
-        /* Philosophy CSS Started */
-        #introduction .cards-content p {
-            padding: 40px 0;
-            padding-right: 0;
-        }
-        
-        #introduction .intro-cards img ,
-        #potential .potet img 
-            {
-            height: 350px;
-            position: relative;
-            z-index: 3;
-        }        
-        #potential .potet::after {
-  
-            top: 8%;
-        }
-        .philosophy .card-title h1 {
-            font-size: 45px;
-        }
-        .philosophy-features {
-      
-            flex-direction: column;
-        }
-        .ftv-logo img {
-            height: 200px;
-            display: none;
-        }
-        .main-footer {
-          
-            flex-direction: column;
-        }
-        #introduction .cards-title h1 {
-            font-weight: 600;
-            font-size: 33px;
-        }
-        #introduction {
-            background-size: 350px; 
-            background-position-y: 50px;
-        }
-        #potential .cards-title h1 {
-            font-weight: 600;
-            margin-top: 80px;
-        }
-        .intro-cards {
-            padding:  10px 0;
-        }
-        .philosophy {
-            padding: 0;
-        }
-        .ftv-intro-feature .cardsimage img {
-            height: 100%;
-            width: 330px;       
-        }
-        .ftv-intro-feature .cards {
-            padding: 0;
-        }
-        .ftv-intro-feature .cardsimage2 img {
-            height: 100%;
-            width: 330px;
-        }
-        .ftv-intro-feature .cards-title h1 {
-            font-size: 34px;
-            margin-top: 30px;
-        }
-        .logo-image{
-            width: 200px;
-        }
-    }
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+}
+/* For Mobile Size */
+
+@media only screen and (max-width: 749px) {
+  section {
+    padding: 50px 20px;
+  }
+  /* Kashiff Khan Responsive */
+  .d-fle {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title h1 {
+    font-family: "Gotham-Medium";
+    font-size: 38px;
+  }
+  .kf-content h1,
+  .ma-content h1 {
+    font-family: "Gotham-Medium";
+    font-size: 34px;
+    margin: 20px 0;
+  }
+  .kf-image img,
+  .ma-image img {
+    height: 380px;
+  }
+  .kf-more-content ::after,
+  .ma-more-content ::after {
+    content: "";
+    height: 250px;
+    width: 340px;
+    top: 0%;
+  }
+  .kf-more-content,
+  .ma-more-content {
+    padding: 10px 0;
+  }
+  .title::after {
+    height: 100px;
+    width: 350px;
+    margin-left: 0;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .kf-more-content p,
+  .ma-more-content p {
+    letter-spacing: 0.2px;
+    width: 100%;
+  }
+  .kf-bg-content p {
+    width: 100%;
+  }
+  .kashiff-features {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* Shows Responsive */
+  .intro-cards video {
+    height: 360px;
+    width: 100%;
+  }
+  .video-source video {
+    width: 100%;
+  }
+  #shows-introduction-feature,
+  #specification .spec-table {
+    display: none;
+  }
+  #mobile-shows-introduction-feature,
+  #specification .mobile-table {
+    display: block;
+  }
+  .sh-bg-content p {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* Philosophy CSS Started */
+  #introduction .cards-content p {
+    padding: 40px 0;
+    padding-right: 0;
+  }
+
+  #introduction .intro-cards img,
+  #potential .potet img {
+    height: 350px;
+    position: relative;
+    z-index: 3;
+  }
+  #potential .potet::after {
+    top: 8%;
+  }
+  .philosophy .card-title h1 {
+    font-size: 45px;
+  }
+  .philosophy-features {
+    flex-direction: column;
+  }
+  .ftv-logo img {
+    height: 200px;
+    display: none;
+  }
+  .main-footer {
+    flex-direction: column;
+  }
+  #introduction .cards-title h1 {
+    font-weight: 600;
+    font-size: 33px;
+  }
+  #introduction {
+    background-size: 350px;
+    background-position-y: 50px;
+  }
+  #potential .cards-title h1 {
+    font-weight: 600;
+    margin-top: 80px;
+  }
+  .intro-cards {
+    padding: 10px 0;
+  }
+  .philosophy {
+    padding: 0;
+  }
+  .ftv-intro-feature .cardsimage img {
+    height: 100%;
+    width: 340px;
+  }
+  .ftv-intro-feature .cards {
+    padding: 50px 0;
+  }
+  .ftv-intro-feature .cardsimage2 img {
+    height: 100%;
+    width: 340px;
+  }
+  .ftv-intro-feature .cards-title h1 {
+    font-size: 34px;
+    margin-top: 60px;    
+  }
+  .logo-image {
+    width: 200px;
+  }
+
+  /* FTV SERVICE CSS */
+  #intro-service .serv-content p {
+    width: 100%;
+  }
+
+  #intro-service .service-content {
+    flex-direction: column-reverse;
+  }
+  .f-logo-ser img {
+    height: 50px;
+  }
+  #intro-service .gel-mani p {
+    text-align: center;
+    padding: 20px 0;
+}
+.cardsimage::after {
+    top: 45%;
+    right: 3%;
+
+}
+.midlogo img {
+    height: 150px;
+    margin: 30px 0;
+}
+}
