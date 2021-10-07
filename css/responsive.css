@@ -77,4 +77,73 @@
             text-align: center;
             padding: 20px 0;
         }
+
+        /* Philosophy CSS Started */
+        #introduction .cards-content p {
+            padding: 40px 0;
+            padding-right: 0;
+        }
+        
+        #introduction .intro-cards img ,
+        #potential .potet img 
+            {
+            height: 350px;
+            position: relative;
+            z-index: 3;
+        }        
+        #potential .potet::after {
+  
+            top: 8%;
+        }
+        .philosophy .card-title h1 {
+            font-size: 45px;
+        }
+        .philosophy-features {
+      
+            flex-direction: column;
+        }
+        .ftv-logo img {
+            height: 200px;
+            display: none;
+        }
+        .main-footer {
+          
+            flex-direction: column;
+        }
+        #introduction .cards-title h1 {
+            font-weight: 600;
+            font-size: 33px;
+        }
+        #introduction {
+            background-size: 350px; 
+            background-position-y: 50px;
+        }
+        #potential .cards-title h1 {
+            font-weight: 600;
+            margin-top: 80px;
+        }
+        .intro-cards {
+            padding:  10px 0;
+        }
+        .philosophy {
+            padding: 0;
+        }
+        .ftv-intro-feature .cardsimage img {
+            height: 100%;
+            width: 330px;       
+        }
+        .ftv-intro-feature .cards {
+            padding: 0;
+        }
+        .ftv-intro-feature .cardsimage2 img {
+            height: 100%;
+            width: 330px;
+        }
+        .ftv-intro-feature .cards-title h1 {
+            font-size: 34px;
+            margin-top: 30px;
+        }
+        .logo-image{
+            width: 200px;
+        }
     }
