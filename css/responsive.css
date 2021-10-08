@@ -266,21 +266,20 @@
 
   .footer-content input {
 
-    padding: 4px 20px;
+    padding: 4px 30px;
   }
 
   .footer-content ul li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .footer-content ul li {
-    padding: 20px 10px;
-    text-align: center;
+    padding: 30px 5px;
   }
 
   .footer-content span {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .cards3::after {
@@ -295,4 +294,181 @@
     right: 25%;
     top: 45%;
   }
+
+  .nav_content li {
+    font-size: 30px;
+  }
+
+  .nav_content {
+    width: 350px;
+    position: fixed;
+  }
+
+  .main-footer h2 {
+
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .footer-content button {
+    padding: 10px 15px;
+    margin-left: 10px;
+  }
+
+  .main-footer {
+    padding: 30px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    padding: 10px 80px;
+  }
+
+  .footer-content ul {
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  .logo1 {
+    display: flex;
+  }
+
+  .footer-logo li {
+    margin: 10px 30px;
+
+  }
+}
+
+/* For Galaxy Fold */
+
+@media(max-width: 320px) {
+  #home .home-content .home-img img {
+    height: 220px;
+}
+.img-grid img {
+  height: 280px;
+  width: 100%;
+}
+.frach-title h1 {
+  text-align: center;
+  font-size: 38px;
+}
+section {
+  padding: 20px 15px;
+}
+.cards-img img {
+  width: 130px;
+  height: 130px;
+}
+.cards3::after {
+  content: "";
+  height: 150px;
+  width: 150px;
+  right: -15%;
+  top: -15%;
+  display: none;
+}
+.cards1::after {
+  right: 45%;
+  top: 25%;
+}
+.footer-logo {
+  padding: 10px 20px;
+}
+#home .home-content {
+
+  padding-top: 120px;
+}
+
+.logo {
+
+  left: 0px;
+}
+.kf-image img, .ma-image img {
+  height: 280px;
+}
+.kf-more-content ::after, .ma-more-content ::after {
+  content: "";
+  height: 250px;
+  width: 100%;
+}
+.title::after {
+  height: 100px;
+  width: 100%;
+}
+.title h1 {
+  font-size: 28px;
+}
+#sh-background{
+  padding-top: 150px;
+
+}
+.intro-cards video {
+  height: 280px;
+  width: 100%;
+}
+#shows-introduction-feature .cards-title h1, #mobile-shows-introduction-feature h1 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#shows-introduction-feature .cards-content p, #mobile-shows-introduction-feature p {
+  padding: 20px 10px;
+}
+.ftv-intro-feature .cardsimage img {
+  height: 100%;
+  width: 270px;
+}
+.ftv-intro-feature .cardsimage2 img {
+  height: 100%;
+  width: 270px;
+}
+.ftv-intro-feature .cards-title h1 {
+  font-size: 28px;
+}
+#introduction .cards-title h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#introduction .intro-cards img, #potential .potet img {
+  height: 260px;
+
+
+}
+
+#introduction .intro-cards::after {
+  content: "";
+  height: 240px;
+  width: 100%;
+  right: 25%;
+  top: 65%;
+}
+#potential .potet::after {
+  content: "";
+  height: 180px;
+  width: 180px;
+  right: -11%;
+}
+.philosophy .card-title h1 {
+  font-size: 32px;
+}
+.philosophy-features .philo-cards {
+  width: 100%;
+  text-align: center;
+}
+.philosophy-features .philo-cards p {
+  padding: 0 10px;
+}
+.f-logo-ser img {
+  height: 30px;
+}
+.serv-content h1{
+  font-size: 30px;
+}
+
+h1{
+  font-size: 30px;
+}
 }
