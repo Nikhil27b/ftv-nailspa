@@ -3,37 +3,121 @@
 
 <head>
     <title>FTV Nail Spa</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 </head>
 
 <body>
-
+    <div class="logo">
+        <img src="./assets/images/home/logo.png" alt="" srcset="" />
+    </div>
     <section id="home">
-        <div class="container-fluid">
-            <div class="home-content">
-                <div class="home-title">
-                    <img src="./assets/images/home/ftvlogo.png" alt="">
-                    <p>FTV Nail Spa is determined to create more than <br> just beautiful nails, we plan to provide our clientele <br> a wholesome nail grooming experience. </p>
-                </div>
-                <div class="home-img">
-                    <img src="./assets/images/home/nailspa.png" alt="" srcset="">
-                </div>
+        <div class="home-content">
+            <div class="home-title">
+                <picture>
+                    <source media="(min-width:650px)" srcset="./assets/images/home/ftvlogo.png">
+                    <source media="(min-width:465px)" srcset="./assets/images/introduction.png">
+                    <img src="./assets/images/home/ftvlogo.png" alt="Flowers" style="width:auto;">
+                  </picture>
+                <p>
+                    FTV Nail Spa is determined to create more than <br />
+                    just beautiful nails, we plan to provide our clientele <br />
+                    a wholesome nail grooming experience.
+                </p>
             </div>
-
+            <div class="home-img">
+                <img src="./assets/images/home/nailspa.png" alt="" srcset="" />
+            </div>
         </div>
     </section>
 
+    <!-- HOME VIDEO SECTIONS -->
 
+    <section id="home-banner-video">
+        <img src="./assets/images/home/video.png" alt="" />
+    </section>
+
+    <!-- HOME SERVICE SECTIONS -->
+
+    <div id="home-services">
+        <div class="service-title">
+            <h1>Services</h1>
+        </div>
+        <div class="home-service-cards">
+            <div class="cards-img cards1">
+                <img src="./assets/images/services/servicesintro.jpg" alt="" />
+            </div>
+            <div class="cards-img cards2">
+                <img src="./assets/images/services/services.jpg" alt="" />
+            </div>
+            <div class="cards-img cards3">
+                <img src="./assets/images/services/servics.png" alt="" />
+            </div>
+        </div>
+
+    </div>
+
+
+    <section id="franchise">
+        <div class="frach-title">
+            <h1>Franchise</h1>
+        </div>
+
+        <div class="franchise-img-grid">
+            <div class="img-grid img-up">
+                <img src="./assets/images/1x/girls3.png" alt="">
+            </div>
+            <div class="img-grid">
+                <img src="./assets/images/1x/girls4.png" alt="">
+            </div>
+            <div class="img-grid img-up">
+                <img src="./assets/images/1x/girls2.png" alt="">
+            </div>
+            <div class="img-grid moimg">
+                <img src="./assets/images/1x/girls1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-------- Footer Started --------->
+
+    <div id="footer">
+        <div class="main-footer">
+            <div class="ftv-logo">
+                <img src="./assets/images/1x/footerlogo.png" alt="" srcset="" />
+            </div>
+            <div class="logoinfo" data-aos="fade-up">
+                <h2>Subscribe to our Newsletter</h2>
+
+                <div class="footer-content">
+                    <input type="email" placeholder="Enter your Email id" id="email" />
+                    <button type="submit" class="fa fa-long-arrow-right"></button>
+
+                    <ul>
+                        <li><a href="">Careers </a></li>
+                        <span>|</span>
+                        <li><a href="">Privacy Policy</a></li>
+                        <span>|</span>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <div class="logo1">
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
 </body>
-
 
 </html>
