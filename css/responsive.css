@@ -9,8 +9,7 @@
     padding: 50px 20px;
   }
 
-  #home-banner-video img {
-    height: 250px;
+  #home-banner-video video {
     width: 100%;
   }
 
@@ -31,6 +30,10 @@
   }
 
   .cards-img img {
+    width: 180px;
+    height: 180px;
+  }
+  .cards-img video {
     width: 180px;
     height: 180px;
   }
@@ -212,7 +215,7 @@
     padding: 0;
   }
 
-  .ftv-intro-feature .cardsimage img {
+  .ftv-intro-feature .cardsimage video {
     height: 100%;
     width: 340px;
   }
@@ -221,7 +224,7 @@
     padding: 50px 0;
   }
 
-  .ftv-intro-feature .cardsimage2 img {
+  .ftv-intro-feature .cardsimage2 video {
     height: 100%;
     width: 340px;
   }
@@ -423,6 +426,12 @@
 
     text-align: center;
   }
+  .cards1 video ,
+  .cards3 video{
+    transform: translateX(0px);
+}
+
+
 }
 
 /* For Galaxy Fold */
@@ -447,6 +456,11 @@
   }
 
   .cards-img img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .cards-img video {
     width: 130px;
     height: 130px;
   }
@@ -531,6 +545,16 @@
     width: 270px;
   }
 
+  .ftv-intro-feature .cardsimage video {
+    height: 100%;
+    width: 270px;
+  }
+
+  .ftv-intro-feature .cardsimage2 video {
+    height: 100%;
+    width: 270px;
+  }
+
   .ftv-intro-feature .cards-title h1 {
     font-size: 28px;
   }
@@ -541,11 +565,16 @@
   }
 
   #introduction .intro-cards img,
-  #potential .potet img {
+  #potential .potet img ,
+  #introduction .intro-cards video{
     height: 260px;
-
-
+    width: 100%;
   }
+  #potential .potet video {
+    height: 260px;
+    width: 100%;
+  }
+
 
   #introduction .intro-cards::after {
     content: "";
