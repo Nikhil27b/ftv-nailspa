@@ -262,20 +262,18 @@ p {
   background-position-y: -10px;
 }
 
-
 .franchise-img-grid {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.img-grid img{
+.img-grid img {
   height: 500px;
   width: 100%;
 }
 
-
-.img-up{
+.img-up {
   transform: translateY(-60px);
 }
 
@@ -625,10 +623,10 @@ p {
 
 .right-imgs {
   background-image: url("../assets/images/franchise/rightside.png");
-  background-size: 650px;
+  background-size: 750px;
   background-repeat: no-repeat;
   position: relative;
-  background-position-x: 100%;
+  background-position-x: 60%;
 }
 
 .left-imgs {
@@ -812,7 +810,6 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-
 .navbar_button {
   width: 30px;
   height: 25px;
@@ -833,8 +830,8 @@ h1 {
   cursor: pointer;
   display: block;
   margin: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar1 {
@@ -844,34 +841,34 @@ h1 {
 
 #bar1.open {
   -webkit-transform: scaleX(0);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar2 {
   top: calc(50% - 4px);
   -webkit-transform: rotate(0deg);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar2.open {
   -webkit-transform: rotate(45deg);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar2b {
   top: calc(50% - 4px);
   -webkit-transform: rotate(0deg);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar2b.open {
   -webkit-transform: rotate(-45deg);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #bar3 {
@@ -881,15 +878,15 @@ h1 {
 
 #bar3.open {
   -webkit-transform: scaleX(0);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .round_nav {
   -webkit-filter: blur(0px);
   width: 6000px;
   height: 6000px;
-  transform: scale(0.0080);
+  transform: scale(0.008);
   background-color: #e2c67f;
   position: fixed;
   top: 0px;
@@ -899,8 +896,8 @@ h1 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
   overflow: hidden;
   z-index: 9;
 }
@@ -930,7 +927,7 @@ h1 {
   margin-bottom: 5px;
   font-size: 38px;
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
   text-align: center;
@@ -951,7 +948,7 @@ h1 {
   transform: translateX(4%);
 }
 
-.navbar_button:hover+.round_nav {
+.navbar_button:hover + .round_nav {
   -webkit-transform: scale(0.011);
   transform: scale(0.011);
 }
@@ -969,4 +966,162 @@ h1 {
   padding: 0px;
   left: 2%;
   top: 0px;
+}
+
+/* FRANCHICE PAGE CSS */
+
+.banner-img img {
+  height: 550px;
+  width: 100%;
+}
+.ftv-title {
+  display: grid;
+  place-items: center;
+}
+.ftv-title p {
+  width: 600px;
+  text-align: center;
+}
+
+.ftv-bar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 30px;
+}
+
+.ftv-bar-content .ftv-bar-logo img {
+  height: 300px;
+}
+
+
+.ftv-bar-video {
+  position: relative;
+  z-index: 4;
+}
+.ftv-bar-video img {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+
+.ftv-bar-video::after{
+  content: "";
+  height: 150px;
+  width: 150px;
+  left: -5%;
+  top: 70%;
+  position: absolute;
+  border: 5px solid #e2c67f;
+  z-index: 1;
+}
+
+.ftv-cafe-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ftv-cafe-video {
+  position: relative;
+  z-index: 4;
+}
+.ftv-cafe-video img {
+  width:  600px;
+  height: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+
+.ftv-cafeweb{
+  margin: 0 30px;
+}
+
+.ftv-cafe-video::after{
+  content: "";
+  height: 150px;
+  width: 150px;
+  right: -5%;
+  top: 65%;
+  position: absolute;
+  border: 5px solid #e2c67f;
+  z-index: 1;
+}
+
+#franchisetable{
+  padding: 30px 0;
+}
+
+
+.frantitle{
+  display: grid;
+  place-items: center;
+}
+.frantitle h1{
+  font-family: "Gotham-Medium";
+  font-size: 54px;
+  background: -webkit-linear-gradient(#e2c67f, #897254);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.frantitle p{
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  font-family: "Gotham-Light";
+}
+
+table {
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+td,
+th {
+  border: none;
+  padding: 1rem;
+}
+
+th {
+  background: linear-gradient(#e2c67f, #897254);
+  padding: 10px 50px;
+  border: none;
+  color: #ffffff;
+}
+
+td {
+  padding: 10px 50px;
+  white-space: nowrap;
+  color: #ffffff;
+  border-left: solid #F0BD79 2px;
+}
+
+td:first-of-type,
+th:first-of-type {
+  border-left: solid #F0BD79 2px;
+
+}
+
+td:last-of-type,
+th:last-of-type {
+  border-right: solid #F0BD79 2px;
+}
+
+tr:last-child{
+  border-bottom:solid #F0BD79 2px ;
+}
+
+.mobile-table {
+  display: none;
 }

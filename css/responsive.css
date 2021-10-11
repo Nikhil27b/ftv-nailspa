@@ -338,6 +338,91 @@
     margin: 10px 30px;
 
   }
+
+  .spec-table {
+    display: none;
+  }
+
+  .mobile-table {
+    display: block;
+  }
+
+  .mobile-table th {
+    /* background-color:; */
+    padding: 10px 50px;
+    border: none;
+    border-bottom: 1px solid #f0bd6e;
+  }
+
+  .mobile-table .cat {
+    color: #ffffff;
+  }
+
+  .mobile-table td {
+    border-bottom: none;
+    color: #ffffff;
+  }
+
+  .mobile-table .column {
+    padding: 15px 0;
+  }
+
+  .mobile-table .column h3 {
+    padding: 10px;
+    padding-bottom: 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  .banner-img img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .ftv-title p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ftv-bar-content {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .ftv-bar-logo {
+    display: none;
+  }
+
+  .ftv-bar-video img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .ftv-cafe-content {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .ftv-cafe-video img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .ftv-cafeweb {
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .frantitle h1 {
+    font-family: "Gotham-Medium";
+    font-size: 44px;
+  }
+
+  .frantitle p {
+
+    text-align: center;
+  }
 }
 
 /* For Galaxy Fold */
@@ -345,130 +430,189 @@
 @media(max-width: 320px) {
   #home .home-content .home-img img {
     height: 220px;
-}
-.img-grid img {
-  height: 280px;
-  width: 100%;
-}
-.frach-title h1 {
-  text-align: center;
-  font-size: 38px;
-}
-section {
-  padding: 20px 15px;
-}
-.cards-img img {
-  width: 130px;
-  height: 130px;
-}
-.cards3::after {
-  content: "";
-  height: 150px;
-  width: 150px;
-  right: -15%;
-  top: -15%;
-  display: none;
-}
-.cards1::after {
-  right: 45%;
-  top: 25%;
-}
-.footer-logo {
-  padding: 10px 20px;
-}
-#home .home-content {
+  }
 
-  padding-top: 120px;
-}
+  .img-grid img {
+    height: 280px;
+    width: 100%;
+  }
 
-.logo {
+  .frach-title h1 {
+    text-align: center;
+    font-size: 38px;
+  }
 
-  left: 0px;
-}
-.kf-image img, .ma-image img {
-  height: 280px;
-}
-.kf-more-content ::after, .ma-more-content ::after {
-  content: "";
-  height: 250px;
-  width: 100%;
-}
-.title::after {
-  height: 100px;
-  width: 100%;
-}
-.title h1 {
-  font-size: 28px;
-}
-#sh-background{
-  padding-top: 150px;
+  section {
+    padding: 20px 15px;
+  }
 
-}
-.intro-cards video {
-  height: 280px;
-  width: 100%;
-}
-#shows-introduction-feature .cards-title h1, #mobile-shows-introduction-feature h1 {
-  padding: 20px 0;
-  font-size: 30px;
-}
+  .cards-img img {
+    width: 130px;
+    height: 130px;
+  }
 
-#shows-introduction-feature .cards-content p, #mobile-shows-introduction-feature p {
-  padding: 20px 10px;
-}
-.ftv-intro-feature .cardsimage img {
-  height: 100%;
-  width: 270px;
-}
-.ftv-intro-feature .cardsimage2 img {
-  height: 100%;
-  width: 270px;
-}
-.ftv-intro-feature .cards-title h1 {
-  font-size: 28px;
-}
-#introduction .cards-title h1 {
-  font-weight: 600;
-  font-size: 30px;
-}
+  .cards3::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+    right: -15%;
+    top: -15%;
+    display: none;
+  }
 
-#introduction .intro-cards img, #potential .potet img {
-  height: 260px;
+  .cards1::after {
+    right: 45%;
+    top: 25%;
+  }
+
+  .footer-logo {
+    padding: 10px 20px;
+  }
+
+  #home .home-content {
+
+    padding-top: 120px;
+  }
+
+  .logo {
+
+    left: 0px;
+  }
+
+  .kf-image img,
+  .ma-image img {
+    height: 280px;
+  }
+
+  .kf-more-content ::after,
+  .ma-more-content ::after {
+    content: "";
+    height: 250px;
+    width: 100%;
+  }
+
+  .title::after {
+    height: 100px;
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 28px;
+  }
+
+  #sh-background {
+    padding-top: 150px;
+
+  }
+
+  .intro-cards video {
+    height: 280px;
+    width: 100%;
+  }
+
+  #shows-introduction-feature .cards-title h1,
+  #mobile-shows-introduction-feature h1 {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  #shows-introduction-feature .cards-content p,
+  #mobile-shows-introduction-feature p {
+    padding: 20px 10px;
+  }
+
+  .ftv-intro-feature .cardsimage img {
+    height: 100%;
+    width: 270px;
+  }
+
+  .ftv-intro-feature .cardsimage2 img {
+    height: 100%;
+    width: 270px;
+  }
+
+  .ftv-intro-feature .cards-title h1 {
+    font-size: 28px;
+  }
+
+  #introduction .cards-title h1 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  #introduction .intro-cards img,
+  #potential .potet img {
+    height: 260px;
 
 
-}
+  }
 
-#introduction .intro-cards::after {
-  content: "";
-  height: 240px;
-  width: 100%;
-  right: 25%;
-  top: 65%;
-}
-#potential .potet::after {
-  content: "";
-  height: 180px;
-  width: 180px;
-  right: -11%;
-}
-.philosophy .card-title h1 {
-  font-size: 32px;
-}
-.philosophy-features .philo-cards {
-  width: 100%;
-  text-align: center;
-}
-.philosophy-features .philo-cards p {
-  padding: 0 10px;
-}
-.f-logo-ser img {
-  height: 30px;
-}
-.serv-content h1{
-  font-size: 30px;
-}
+  #introduction .intro-cards::after {
+    content: "";
+    height: 240px;
+    width: 100%;
+    right: 25%;
+    top: 65%;
+  }
 
-h1{
-  font-size: 30px;
-}
+  #potential .potet::after {
+    content: "";
+    height: 180px;
+    width: 180px;
+    right: -11%;
+  }
+
+  .philosophy .card-title h1 {
+    font-size: 32px;
+  }
+
+  .philosophy-features .philo-cards {
+    width: 100%;
+    text-align: center;
+  }
+
+  .philosophy-features .philo-cards p {
+    padding: 0 10px;
+  }
+
+  .f-logo-ser img {
+    height: 30px;
+  }
+
+  .serv-content h1 {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .ftv-bar-video img {
+    height: 250px;
+  }
+
+  .ftv-bar-video::after {
+    height: 130px;
+    width: 150px;
+  }
+
+  .ftv-cafe-video img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .ftv-cafe-video::after {
+    content: "";
+    height: 130px;
+    width: 150px;
+  }
+
+  .mobile-table td {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .mobile-table th {
+    padding: 10px;
+  }
 }
